@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        /* 
+        There are three way to make sting to number
+        number() ==make all number
+        parseIn() ==make integer (Not float)
+        ParseFloat() ==make float (not integer)
+        */
+
+       document.write("number() ==make all number" + "<br>")
+        var x;
+        x =Number("120");
+        document.write(x + "<br>");
+        document.write(typeof(x)+ "<br>");
+
+        x =Number("120.05");
+        document.write(x + "<br>");
+        document.write(typeof(x)+ "<br>");
+
+        x =Number("          120");
+        document.write(x + "<br>");
+        document.write(typeof(x)+ "<br>");
+
+        x =Number("120        ");
+        document.write(x + "<br>");
+        document.write(typeof(x)+ "<br>");
+
+        x =Number("      120     ");
+        document.write(x + "<br>");
+        document.write(typeof(x)+ "<br>");
+
+        x =Number("Sejan 120");
+        document.write(x + "<br>");
+        document.write(typeof(x)+ "<br>");
+       
+       
+        x =Number("120 Sejan");
+        document.write(x + "<br>");
+        document.write(typeof(x)+ "<br>");
+// -----------------------------------------------------
+document.write(" parseIn() ==make integer (Not float) "+ "<br>")
+var x;
+        x =parseInt("120");
+        document.write(x + "<br>");
+        document.write(typeof(x)+ "<br>");
+
+        x =parseInt("120.05");
+        document.write(x + "<br>");
+        document.write(typeof(x)+ "<br>");
+
+        x =parseInt("          120");
+        document.write(x + "<br>");
+        document.write(typeof(x)+ "<br>");
+
+        x =parseInt("120        ");
+        document.write(x + "<br>");
+        document.write(typeof(x)+ "<br>");
+
+        x =parseInt("      120     ");
+        document.write(x + "<br>");
+        document.write(typeof(x)+ "<br>");
+
+        x =parseInt("Sejan 120");
+        document.write(x + "<br>");
+        document.write(typeof(x)+ "<br>");
+       
+       
+        x =parseInt("120 Sejan");
+        document.write(x + "<br>");
+        document.write(typeof(x)+ "<br>");
+// ========================================================
+document.write("  ParseFloat() ==make float (not integer)  " + "<br>")
+var x;
+        x =parseFloat("120");
+        document.write(x + "<br>");
+        document.write(typeof(x)+ "<br>");
+
+        x =parseFloat("120.05");
+        document.write(x + "<br>");
+        document.write(typeof(x)+ "<br>");
+
+        x =parseFloat("          120");
+        document.write(x + "<br>");
+        document.write(typeof(x)+ "<br>");
+
+        x =parseFloat("120        ");
+        document.write(x + "<br>");
+        document.write(typeof(x)+ "<br>");
+
+        x =parseFloat("      120     ");
+        document.write(x + "<br>");
+        document.write(typeof(x)+ "<br>");
+
+        x =parseFloat("Sejan 120");
+        document.write(x + "<br>");
+        document.write(typeof(x)+ "<br>");
+        
+        x =parseFloat("120 Sejan");
+        document.write(x + "<br>");
+        document.write(typeof(x)+ "<br>");
+
+
+
+    </script>
+</body>
+</html>
